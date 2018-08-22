@@ -2,7 +2,8 @@ import Foundation
 
 import ShellOut
 
-enum WebBrowser {
+/// An enum that houses functions to be called
+public enum WebBrowser {
     /// Open the specified URL in the browser
     ///
     /// - Parameter url: The URL to open
