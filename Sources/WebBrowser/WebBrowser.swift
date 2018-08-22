@@ -28,7 +28,7 @@ public enum WebBrowser {
     }
 
     private static func openForMac(url: URL) throws {
-        try shellOut(to: "open", arguments: [url.absoluteString])
+        try shellOut(to: "open", arguments: ["\"\(url.absoluteString)\""])
     }
 
     private static func openForLinux(url: URL) throws {
