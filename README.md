@@ -14,11 +14,11 @@ Add this to your Package.swift:
 
 ## Usage
 ```swift
-    import WebBrowser
+import WebBrowser
 
-    do {
-        try WebBrowser.open(url: URL(string: "http://google.com/")!)
-    } catch {
-        // handle error
-    }
+do {
+    try WebBrowser.open(url: URL(string: "http://google.com/")!)
+} catch {
+    // handle error
+}
 ```
