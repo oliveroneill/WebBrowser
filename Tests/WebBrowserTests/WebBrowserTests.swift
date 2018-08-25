@@ -2,7 +2,7 @@ import XCTest
 @testable import WebBrowser
 
 final class WebBrowserTests: XCTestCase {
-    /// Integration test. This will open Google in your browser
+    /// End to end test. This will open Google in your browser
     func testExample() {
         do {
             try WebBrowser.open(url: URL(string: "http://google.com/")!)
