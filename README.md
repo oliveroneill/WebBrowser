@@ -9,7 +9,7 @@ I have not tested it on Linux yet.
 ## Installation
 Add this to your Package.swift:
 ```swift
-.package(url: "https://github.com/oliveroneill/WebBrowser.git", .branch("master")),
+.package(url: "https://github.com/oliveroneill/WebBrowser.git", .upToNextMajor(from: "1.0.0")),
 ```
 
 ## Usage
